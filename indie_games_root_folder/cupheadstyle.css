@@ -1,0 +1,85 @@
+@charset "UTF-8";
+html{
+	background: url("Cuphead images/background.jpg") no-repeat center fixed;
+	background-size: cover
+		
+}
+#wrapper {
+    width: 960px;
+	height: 1000px;;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    position: relative;
+}
+ 
+h1{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    background-color: rgba(0,0,0,0.50);
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+}
+h1:hover{
+	background-color: rgba(144,30,210,0.50)
+}
+
+
+a{
+	color: white;
+	text-decoration: none
+}
+h2{
+	color: white;
+	font-family: 'Press Start 2P', cursive;
+	padding-top: 50px;
+	text-decoration: underline;
+	
+}
+h3{
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	font-size: 17px
+}
+p{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: white;
+	width: 639px;
+	font-size: 20px;
+	padding: 5px;
+	background-color: rgba(0,0,0,0.50)
+}
+#wrapper header p {
+}
+.xbox {
+}
+
+.p2{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: white;
+	width: 639px;
+	font-size: 20px;
+	float: right;
+}
+.p3{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	text-decoration: underline
+	color: white;
+	width: 639px;
+	font-size: 20px;
+	float: left;
+}
+.nav:hover{
+	background-color: rgba(144,30,210,0.50)
+}
+ul{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+li{
+	width: 250px;
+	float: left;
+}
